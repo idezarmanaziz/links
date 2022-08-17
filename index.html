@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idez Arman Aziz - Links</title>
+    <link href="dist/output.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script type="text/javascript">
+    window.addEventListener('DOMContentLoaded', () => {
+        VANTA.BIRDS({
+            el: "#vanta",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: true,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundAlpha: 0.0,
+            scale: 1.00,
+            color2: 0xadff,
+            wingSpan: 40.00,
+            separation: 100.00,
+            alignment: 77.00,
+            cohesion: 5.00,
+            quantity: 1.00
+        })
+        setTimeout( () => {
+                const main = document.querySelector('main')
+                main.style.opacity = 1
+                main.style.filter = 'blur(0px)'
+        }, 1000)
+    })
+    </script>
+</head>
+<body class="bg-center bg-cover bg-repeat bg-fixed"  style="background-image:url(src/bg\ \(2\).jpg);">
+    <div id="vanta" class="z-0 absolute left-0 
+    top-0 right-0 bottom-0 w-full h-full ">
+    </div>
+    <main class="relative opacity-0 blur-[10px] transition duration-[2s] ease-in-out">
+    <header class="flex flex-col mt-4 text-center items-center ">
+        <img src="src/ia.jpg" alt="Idez Arman Aziz" class=" shadow-2xl shadow-slate-900
+        w-24 rounded-full mx-auto border-solid border-[1px] z-0 md:w-36 md:h-36" />
+        <h1 class="block  mt-5 text-2xl rounded-full bg-slate-900 bg-opacity-70
+        backdrop-saturate-150 backdrop-contrast-150 backdrop-blur-[10px]
+        text-white font-bold px-2.5 pb-1 mb-[10px] border-solid border-white border">@idez_arman</h1>
+    </header>
+    <div class="p-8 list-none font-semibold flex flex-col mx-auto max-w-xl"
+        <ul>
+            <div class="bg-white backdrop-saturate-150
+            backdrop-contrast-150 backdrop-blur-[10px] bg-opacity-70 rounded-full m-4 p-3">
+            <li>  
+            <a href="https://idezarmanaziz.github.io/qimon/" target="_blank" class="flex justify-center  gap-2">
+            <img src="src/homepage.svg" alt="Homepage" width="20" /> 
+                Official Web
+            </a>
+            </li>
+            </div>
+            <div class="bg-white backdrop-saturate-150 
+            backdrop-contrast-150 backdrop-blur-[10px] bg-opacity-70 rounded-full m-4 p-3">
+            <li>
+            <a href="https://www.youtube.com/channel/UC1c5xFTxAMQkSxS8cD0JjRg/featured" target="_blank" class="flex gap-2 justify-center">
+            <img src="src/youtube.svg"  
+            alt="YouTube" width="20"/>
+                YouTube
+            </a>
+            </li>
+            </div>
+            <div class="bg-white backdrop-saturate-150 
+            backdrop-contrast-150 backdrop-blur-[10px] bg-opacity-70 rounded-full m-4 p-3">
+            <li>
+            <a href="https://www.linkedin.com/in/idez-arman-aziz/" target="_blank" class="flex
+            justify-center gap-2">
+            <img src="src/linkedin.svg" alt="LinkedIN" width="20"/>
+                Linkedin
+            </a>
+            </li>
+            </div>
+            <div class="bg-white backdrop-saturate-150 
+            backdrop-contrast-150 backdrop-blur-[10px] bg-opacity-70 rounded-full m-4 p-3">
+            <li>
+            <a href="https://github.com/idezarmanaziz" target="_blank" class="flex
+            justify-center gap-2">
+            <img src="src/github.svg" alt="LinkedIN" width="20"/>
+                Github
+            </a>
+            </li>
+            </div>
+        </ul> 
+    </div>
+    </main>
+</body>
+</html>
